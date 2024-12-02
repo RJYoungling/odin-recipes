@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 26px;
+  background-color: #f6f9e5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #444;
+}
+
+body h1 {
+  font-size: 80px;
+  font-weight: 900;
+  background-color: rgb(236, 43, 43);
+}
+
+h2 {
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+
+}
+
+img {
+  width: 800px;
+  height: auto;
+}
+
+a {
+    transition: font-size 0.3s ease; /* Smooth transition for the font size change */
+  }
+  
+  a:hover {
+    font-size: 3em; /* Change this value to make the text bigger on hover */
+  }
+
+.container {
+    border: 5px solid red; /* Red border */
+    padding: 30px; /* Space inside the box */
+    margin: 30px; /* Space outside the box */
+}
